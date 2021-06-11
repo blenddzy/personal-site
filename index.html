@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Gregori - Full-Stack JavaScript</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9fc26edd8b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<header>
+<a href="#home" class="logo"><i class="fas fa-terminal"></i></a>
+<div class="toggle" onclick="toggleMenu();"></div>
+<div class="menu-1">
+    <div class="button">
+        <div class="icon">
+            <i class="fas fa-house-user"></i>
+        </div>
+        <a href="#home">INICIO</a>
+    </div>
+    <div class="button">
+        <div class="icon">
+            <i class="far fa-address-card"></i>
+        </div>
+        <a href="#about">SOBRE MI</a>
+    </div>
+    <div class="button">
+        <div class="icon">
+            <i class="far fa-envelope"></i>
+        </div>
+        <a href="#contact">CONTACTAME</a>
+    </div>
+</div>
+
+</header>
+
+<body>
+<!--
+    INDEX PRINCIPAL
+-->
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hola, mi nombre es <br><span>Federico Gregori</span></h2>
+            <h3>Full-Stack JavaScript</h3>
+            <a href="#about" class="btn">Mas sobre mi</a>
+        </div>
+    </section>    
+
+
+<!--
+    SOBRE MI
+-->
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>Un poco sobre mi</h2>
+           <div class="contentBx w50">
+               <p>Soy estudiante de la Tec. en Programacón. <i> Actualmente cursando.</i>
+               <p>Tengo buena predisposición y muchas ganas de ir aprendiendo nuevas tecnologías.</p>
+               <p>He realizado cursos de <b>Udemy, FreeCodeCamp, YouTube</b>, aparte de estar estudiando una Tecnicatura, soy bastante autodidacta.</p>
+               <p>Actualmente estoy cursando a la par de la Tec. un <b>Bootcamp</b> de JavaScript</p>
+               <h2>Puedes ver mis proyectos</h2>
+           </div> 
+           <a href="https://github.com/blenddzy" class="btn"><i class="fab fa-github"></i> Mi Respositorio</a>
+           <p></p>
+           <a href="https://drive.google.com/file/d/1fRyAftQrN2R3Jd3H_gU-X7FhF-xMllrv/view?usp=sharing" class="btn"><i class="fas fa-file-pdf"></i> Descarga mi CV</a>
+        </div>
+    </section>
+
+
+<!--
+    SKILLS
+-->
+<section class="services" id="skills">
+    <div class="heading-white">
+        <h2>Mis skills</h2>
+        <p>Actualmente estoy haciendo un Bootcamp, la Tecnicatura en programación y tengo conocimientos en</p>
+    </div>
+    <div class="content">
+        <div class="servicesBx">
+            <i class="fab fa-html5"></i>
+            <h2>HTML</h2>
+        </div>
+        <div class="servicesBx">
+            <i class="fab fa-css3-alt"></i>
+            <h2>CSS</h2>
+        </div>
+        <div class="servicesBx">
+            <i class="fab fa-js-square"></i>
+            <h2>JavaScript</h2>
+        </div>
+        <div class="servicesBx">
+            <i class="fab fa-github"></i>
+            <h2>GitHub</h2>
+        </div>
+        <div class="servicesBx">
+            <i class="fab fa-node-js"></i>
+            <h2>Node.Js</h2>
+        </div>
+        <div class="servicesBx">
+            <i class="fab fa-react"></i>
+            <h2>React</h2>
+        </div> 
+        <div class="servicesBx">
+            <i class="fas fa-database"></i>
+            <h2>MongoDB y MySQL</h2>
+        </div>
+    </div>
+</section>
+
+
+<!--
+    CONTACTO
+-->
+
+<section class="contact" id="contact">
+    <div class="heading">
+    </div>
+    <div class="content">
+        <div class="contactInfo">
+            <h3>Información</h3>
+            <div class="contactInfoBx">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="text">
+                            <h3>Ubicación</h3>
+                            <p>La Rioja, Argentina</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="far fa-envelope"></i>
+                        <div class="text">
+                            <h3>Mail</h3>
+                            <p>fgregori995@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fas fa-user-friends"></i>
+                        <div class="text">
+                            <h3>Social</h3>
+                            <p><a href="https://github.com/blenddzy"><i class="fab fa-github-square"></i></a> Respositorio GitHub</p>
+                            <p><a href="https://www.linkedin.com/in/fgregori995/"><i class="fab fa-linkedin"></i></a> Perfil linkedin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formbx">
+            <form name="contact" method="POST" data-netlify="true">
+                <h3>Enviame un mensaje</h3>
+                <input type="text" name="" placeholder="Tu nombre">
+                <input type="email" name="" placeholder="Email">
+                <textarea placeholder="Tu mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="/js/js.js"></script>
+<script type="text/javascript">
+window.addEventListener('scroll', function(){
+    var header = document.querySelector('header');
+    header.classList.toggle('sticky', window.scrollY > 0);
+});
+
+</script>
+
+
+</body>
+</html>
